@@ -1,0 +1,12 @@
+{application, stillepost,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { stillepost_app, []}},
+  {env, []}
+ ]}.

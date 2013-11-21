@@ -1,0 +1,35 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+	background: #1f3b08; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #1f3b08 0%, #627d4d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#1f3b08), color-stop(100%,#627d4d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, #1f3b08 0%,#627d4d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, #1f3b08 0%,#627d4d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #1f3b08 0%,#627d4d 100%); /* IE10+ */
+	background: linear-gradient(135deg, #1f3b08 0%,#627d4d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f3b08', endColorstr='#627d4d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+html > body > header {
+	background: rgba(200,30,30,0.5);
+	margin: 0px;
+	padding: 2mm;
+	padding-bottom: 2mm;
+}
+html > body > header > * {
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 2mm;
+}
+
+html > body > nav {
+	float: left;
+}
+html > body > nav > * {
+	display: block;
+}
+
+html > body > section {
+	float: none;
+}
