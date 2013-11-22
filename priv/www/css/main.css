@@ -17,15 +17,19 @@ html, body {
 
 .left  { float: left;  }
 .right { float: right; }
+nav.left  { border-bottom-right-radius: 5mm; }
+nav.right { border-bottom-left-radius:  5mm; }
 
 canvas {
 	border: 1px black solid;
 	background: #ffffff;
+	margin: auto;
 }
 
 html > body > header {
 	background: rgba(160,20,20,0.7);
-	margin: 0px;
+	margin: 2mm;
+	margin-bottom: 0px;
 	padding: 2mm;
 	padding-bottom: 0mm;
 }
@@ -34,16 +38,36 @@ html > body > header > * {
 	padding: 0px;
 	padding-bottom: 2mm;
 }
+html > body > header > h1 {
+	border-bottom: 1px black solid;
+	margin-bottom: 3mm;
+}
+
 html > body > nav {
-	border: 1px black solid;
-	margin: 0px;
+	margin: 2mm;
 	padding: 2mm;
 	background: rgba(160,20,20,0.7);
 }
 html > body > nav > * {
 	display: block;
 }
+html > body > nav > a {
+	color: white;
+}
+html > body > nav > a:visited {
+	color: #aaaaaa;
+}
+html > body > nav > a:focus,
+html > body > nav > a:hover {
+	color: #ffff77;
+}
 
 html > body > section {
+	margin-top: 2mm;
 	float: none;
+	text-align: center;
+}
+
+table {
+	text-align: left;
 }
