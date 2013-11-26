@@ -1,7 +1,7 @@
 stillepost
 ==========
 
-**NOT IMPLEMENTED YET***
+**NOT IMPLEMENTED YET**
 
 Stille Post mit HTML5 Mitteln
 
